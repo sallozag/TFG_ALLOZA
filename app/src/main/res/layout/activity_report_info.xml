@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ReportInfoActivity">
+
+        <LinearLayout
+            android:id="@+id/reportInfoLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/consideracionesGeneralesTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Consideraciones generales"
+                android:textStyle="bold"
+                android:gravity=""
+                android:textSize="17sp"
+                android:textColor="@color/negro"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev1TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/pantallaTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pantalla"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev2TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev3TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev4TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev5TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev6TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev7TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/tecladoTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teclado"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev8TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev9TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev10TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev11TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev12TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/mesaOSuperficieDeTrabajoTextViewTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mesa o superficie de trabajo"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev13TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev14TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev15TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev16TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev17TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/asientoDeTrabajoTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asiento de trabajo"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev18TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev19TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev20TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev21TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/espacioTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Espacio"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev22TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/iluminacionTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iluminación"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev23TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                android:autoLink="web"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev24TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/reflejosYDeslumbramientosTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reflejos y deslumbramientos"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText,TooManyViews" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev25TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev26TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/ruidoTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ruido"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev27TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/calorTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calor"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev28TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/emisionesTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emisiones"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev29TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/humedadTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Humedad"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev30TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/interconexionPersonaOrdenadorTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interconexión persona/ordenador"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev31TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev32TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev33TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev34TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev35TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/medidaPrev36TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/negro"
+                android:autofillHints=""
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="30dp"/>
+
+            <Button
+                android:id="@+id/backToMyEvalsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="Volver a Mis Evaluaciones"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="30dp"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

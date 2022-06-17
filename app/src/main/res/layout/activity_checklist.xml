@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ChecklistActivity">
+
+        <LinearLayout
+            android:id="@+id/resultsLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/encabezadoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marque con un tick las opciones que considere que cumple el lugar se dispone a analizar.\n\nEn caso de no aplicar una opción a su puesto de trabajo, márquela para no obtener la medida preventiva asociada en los resultados."
+                android:gravity=""
+                android:textColor="@color/negro"
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/consideracionesGeneralesTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Consideraciones generales"
+                android:textColor="@color/negro"
+                android:textStyle="bold"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox1"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/consideracionesGenerales"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/pantallaTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pantalla"
+                android:textStyle="bold"
+                android:gravity=""
+                android:textColor="@color/negro"
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox2"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pantalla1"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox3"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pantalla2"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox4"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pantalla3"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox5"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pantalla4"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox6"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pantalla5"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox7"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pantalla6"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/tecladoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teclado"
+                android:textStyle="bold"
+                android:gravity=""
+                android:textSize="17sp"
+                android:textColor="@color/negro"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox8"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teclado1"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox9"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teclado2"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox10"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teclado3"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox11"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teclado4"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox12"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teclado5"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/mesaOSuperficieDeTrabajoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mesa o superficie de trabajo"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox13"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mesaOSuperficieDeTrabajo1"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox14"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mesaOSuperficieDeTrabajo2"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox15"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mesaOSuperficieDeTrabajo3"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox16"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mesaOSuperficieDeTrabajo4"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox17"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mesaOSuperficieDeTrabajo5"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/asientoDeTrabajoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asiento de trabajo"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox18"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asientoDeTrabajo1"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox19"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asientoDeTrabajo2"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox20"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asientoDeTrabajo3"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox21"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asientoDeTrabajo4"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/espacioTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Espacio"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox22"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/espacio"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/iluminacionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iluminación"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox23"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/iluminacion1"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox24"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/iluminacion2"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                tools:ignore="TooManyViews" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/reflejosYDeslumbramientosTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reflejos y deslumbramientos"
+                android:textStyle="bold"
+                android:gravity=""
+                android:textColor="@color/negro"
+                android:textSize="17sp"
+                tools:ignore="HardcodedText,TooManyViews" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox25"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reflejosYDeslumbramientos1"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox26"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reflejosYDeslumbramientos2"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/ruidoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ruido"
+                android:textColor="@color/negro"
+                android:textStyle="bold"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox27"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ruido"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/calorTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calor"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox28"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/calor"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,TooManyViews,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/emisionesTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emisiones"
+                android:textColor="@color/negro"
+                android:textStyle="bold"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox29"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emisiones"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/humedadTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Humedad"
+                android:textColor="@color/negro"
+                android:textStyle="bold"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox30"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/humedad"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/interconexionPersonaOrdenadorTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interconexión persona/ordenador"
+                android:textColor="@color/negro"
+                android:textStyle="bold"
+                android:gravity=""
+                android:textSize="17sp"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox31"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interconexionPersonaOrdenador1"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox32"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interconexionPersonaOrdenador2"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox33"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interconexionPersonaOrdenador3"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox34"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interconexionPersonaOrdenador4"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox35"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interconexionPersonaOrdenador5"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <CheckBox android:id="@+id/checkbox36"
+                android:shape="oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interconexionPersonaOrdenador6"
+                android:textColor="@color/negro"
+                android:onClick="onCheckboxClicked"
+                tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="25dp"/>
+
+            <Button
+                android:id="@+id/resultadosButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/acento"
+                android:text="Resultados"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="30dp"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

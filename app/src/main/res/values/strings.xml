@@ -1,0 +1,286 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">PVD Prevención</string>
+    <string name="registrar">Registrar</string>
+    <string name="acceder">Acceder</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="email">Email</string>
+    <string name="opcionAMarcada">La opción A está marcada.</string>
+    <string name="opcionANoMarcada">La opción A no está marcada.</string>
+    <string name="opcionBMarcada">La opción B está marcada.</string>
+    <string name="opcionBNoMarcada">La opción B no está marcada.</string>
+    <string name="prefs_file">com.alloza.allprevention.PREFERENCE_FILE_KEY</string>
+    <string name="prefs_file2">com.alloza.allprevention.PREFERENCE_FILE_KEY2</string>
+    <string name="facebook_app_id">6835416223195577</string>
+    <string name="fb_login_protocol_scheme">fb6835416223195577</string>
+
+    <string name="consideracionesGenerales">La utilización del equipo es segura,
+        no es una fuente de riesgo por sí mismo.</string>
+
+    <string name="pantalla1">Los caracteres de la pantalla están bien definidos y tienen un tamaño
+        suficiente.</string>
+    <string name="pantalla2">El espacio entre caracteres y entre renglones es adecuado.</string>
+    <string name="pantalla3">La imagen de la pantalla es estable y no se observan destellos,
+        centelleos ni otras inestabilidades.</string>
+    <string name="pantalla4">Se puede ajustar la luminosidad y el contraste entre los caracteres y
+        el fondo de la pantalla.</string>
+    <string name="pantalla5">La pantalla es orientable e inclinable.</string>
+    <string name="pantalla6">No se observan reflejos ni reverberaciones molestas.</string>
+
+    <string name="teclado1">El teclado es inclinable e independiente de la pantalla.</string>
+    <string name="teclado2">Hay espacio suficiente delante del teclado para apoyar los brazos y
+        las manos.</string>
+    <string name="teclado3">La superficie del teclado es mate y no presenta reflejos.</string>
+    <string name="teclado4">La disposición y las características de las teclas facilitan su
+        utilización.</string>
+    <string name="teclado5">Los símbolos de las teclas resaltan y son fácilmente legibles.</string>
+
+    <string name="mesaOSuperficieDeTrabajo1">La superficie de la mesa es poco reflectante.</string>
+    <string name="mesaOSuperficieDeTrabajo2">Las dimensiones son suficientes para colocar todos los
+        elementos necesarios en el puesto de trabajo.</string>
+    <string name="mesaOSuperficieDeTrabajo3">El portadocumentos es estable y regulable. </string>
+    <string name="mesaOSuperficieDeTrabajo4">La ubicación del portadocumentos minimiza los
+        movimientos incómodos de la cabeza y de los ojos.</string>
+    <string name="mesaOSuperficieDeTrabajo5">El espacio de la superficie de trabajo es suficiente
+        para permitir una posición cómoda.</string>
+
+    <string name="asientoDeTrabajo1">El asiento es estable, proporciona libertad de movimientos y
+        permite adoptar una postura cómoda.</string>
+    <string name="asientoDeTrabajo2">La altura del asiento se puede regular.</string>
+    <string name="asientoDeTrabajo3">El respaldo es reclinable y su altura ajustable.</string>
+    <string name="asientoDeTrabajo4">Se pone un reposapiés a disposición de quien lo desee.</string>
+
+    <string name="espacio">El puesto de trabajo tiene dimensiones y espacio suficiente para
+        permitir los cambios de postura y los movimientos de trabajo.</string>
+
+    <string name="iluminacion1">Se garantiza un nivel adecuado de iluminación y unas relaciones
+        adecuadas de luminancia entre la pantalla y su entorno.</string>
+    <string name="iluminacion2">Se evitan los deslumbramientos y los reflejos molestos mediante el
+        acondicionamiento del puesto y la situación y las características de las fuentes de luz
+        artificial.</string>
+
+    <string name="reflejosYDeslumbramientos1">Los puestos de trabajo están instalados de manera que
+        se evitan los reflejos molestos de las fuentes de luz natural y de los elementos claros del
+        entorno.</string>
+    <string name="reflejosYDeslumbramientos2">Las ventanas están equipadas con algún dispositivo
+        adecuado y regulable que atenúa la luz natural.</string>
+
+    <string name="ruido">El ruido producido por los equipos instalados en el puesto de trabajo no
+        perturba la atención ni la palabra.</string>
+
+    <string name="calor">El calor emitido por los equipos instalados en el puesto de trabajo
+        no ocasiona molestias.</string>
+
+    <string name="emisiones">Las radiaciones electromagnéticas que no forman parte del espectro
+        visible están reducidas a niveles insignificantes.</string>
+
+    <string name="humedad">El nivel de humedad ambiental es aceptable.</string>
+
+    <string name="interconexionPersonaOrdenador1">El programa está adaptado a la tarea.</string>
+    <string name="interconexionPersonaOrdenador2">El programa es fácil de utilizar y se adapta a
+        los conocimientos y a la experiencia de los usuarios.</string>
+    <string name="interconexionPersonaOrdenador3">Se informa a los trabajadores y se consulta con
+        sus representantes sobre la existencia de posibles dispositivos de control.</string>
+    <string name="interconexionPersonaOrdenador4">El sistema (software) proporciona indicaciones
+        sobre su desarrollo.</string>
+    <string name="interconexionPersonaOrdenador5">El sistema (software) muestra la información en
+        un formato y a un ritmo adaptado a los trabajadores.</string>
+    <string name="interconexionPersonaOrdenador6">Se aplican los principios de la ergonomía al
+        tratamiento de la información.</string>
+
+    <string name="boe">https://www.boe.es/buscar/act.php?id=BOE-A-1997-8671</string>
+    <string name="guiaTecnica">https://www.insst.es/documents/94886/789467/Gu%C3%ADa+t%C3%A9cnica+para+la+evaluaci%C3%B3n+y+prevenci%C3%B3n+de+los+riesgos+relativos+a+la+utilizaci%C3%B3n+de+equipos+con+pantallas+de+visualizaci%C3%B3n.pdf</string>
+
+
+    <string name="link">asasas<a href="https://www.boe.es/buscar/act.php?id=BOE-A-1997-8669">HOLA</a>asdasd</string>
+    <string name="link2">Teniendo en cuenta que, en los puestos típicos de trabajo que hacen uso de equipos con pantallas de visualización, es habitual que se simultaneen tareas de lectura y de escritura, tanto en el papel como en la pantalla, el nivel de iluminación promedio deberá estar comprendido en el rango de 300 lux a 500 lux.\n\nPara más información consulte la tabla de niveles de iluminación del ANEXO IV (Iluminación de los lugares de trabajo) del <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1997-8669">Real Decreto 488/1997, de 14 de abril, sobre disposiciones mínimas de seguridad y salud relativas al trabajo con equipos que incluyen pantallas de visualización.</a></string>
+
+    <string name="checkbox1OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox1NOTOK">La norma técnica “UNE-EN ISO 9241-303:2011: Ergonomía de la interacción hombre-sistema. Parte 303: Requisitos para las pantallas de visualización electrónica” establece una serie de especificaciones de rendimiento y recomendaciones que aseguran unas condiciones de visualización eficaces y confortables independientemente de la tecnología del equipo, de la tarea y del medio ambiente en que se desarrolla, con el fin de que la información mostrada en la pantalla pueda identificarse de forma rápida, sin esfuerzo y sin errores.\n\nPara que el equipo no entrañe riesgos para la salud debe cumplir con lo dispuesto en el Real Decreto 488/1997, de 14 de abril, sobre disposiciones mínimas de seguridad y salud relativas al trabajo con equipos que incluyen pantallas de visualización y en el Real Decreto 486/1997, de 14 de abril, por el que se establecen las disposiciones mínimas de seguridad y salud en los lugares de trabajo.</string>
+
+    <string name="checkbox2OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox2NOTOK">Debido a la variabilidad de los usuarios potenciales y la relevancia de la legibilidad de la información representada en las pantallas, es importante que existan posibilidades de ajuste y de regulación de distintos parámetros tales como el contraste, la diferencia de luminancias o el tamaño de los caracteres que permitan la adaptación a las diferentes necesidades.</string>
+
+    <string name="checkbox3OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox3NOTOK">Aunque se recomienda una altura de los caracteres de 20-22 minutos de arco, en la práctica, la mayor parte de las aplicaciones que se emplean en un entorno de oficina permiten modificar el tipo de letra, el tamaño de la misma y otras características del texto como el espaciado entre caracteres, palabras y líneas, etc., permitiendo adecuarlo al usuario y a sus necesidades particulares.</string>
+
+    <string name="checkbox4OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox4NOTOK">Idealmente, una pantalla de visualización no debe presentar ningún tipo de artefacto visual que dificulte la legibilidad: falta de uniformidad de luminancia, de color o de contraste, distorsiones geométricas (para filas o columnas de texto), defectos en la pantalla, parpadeo, efecto muaré, etc. Por ejemplo: en relación con la estabilidad de la imagen, la pantalla se debería ver libre de parpadeos por al menos el 90% de los usuarios.</string>
+
+    <string name="checkbox5OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox5NOTOK">Para que los símbolos en pantalla se visualicen adecuadamente, deben tener suficiente contraste con el fondo. Aunque dicha visibilidad también depende de la luminosidad del entorno, como esta no siempre puede controlarse por el usuario, la pantalla debe proporcionar los medios para poder ajustar el contraste de luminancias entre los caracteres y el fondo de pantalla.</string>
+
+    <string name="checkbox6OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox6NOTOK">Por lo que respecta a la colocación de la pantalla, para facilitar la correcta visualización de la información es fundamental la distancia de visualización y el ángulo de la línea de visión. En lo que concierne a la colocación de la pantalla, aunque la distancia de visualización depende de la tarea y el monitor, en ningún caso debe estar situada a menos de 300 mm. Los tamaños de las pantallas que se emplean habitualmente en tareas de oficina requieren habitualmente una distancia comprendida entre 400 mm y 750 mm.</string>
+
+    <string name="checkbox7OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox7NOTOK">La pantalla se situará a una altura tal que la parte superior de la misma coincida con la altura de los ojos del usuario de manera que pueda ser visualizada dentro del espacio situado entre la línea de visión horizontal y la trazada a 40° bajo la horizontal de forma que la flexión del cuello esté entre 0° y 25°.</string>
+
+    <string name="checkbox8OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox8NOTOK">El teclado es el principal dispositivo de introducción de datos en los equipos con pantallas de visualización. El requisito de movilidad e independencia respecto al resto del equipo resulta necesario para que, por una parte, se pueda ubicar en una posición que no implique posiciones forzadas y, por otra, permita su adaptación a los cambios posturales del usuario.</string>
+
+    <string name="checkbox9OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox9NOTOK">Si el diseño incluye un soporte para las manos, su profundidad debería ser al menos de 10 cm. Si no existe dicho soporte, se debe habilitar un espacio similar en la mesa delante del teclado. Este soporte o espacio es muy importante para reducir la tensión estática en los brazos y en la espalda.</string>
+
+    <string name="checkbox10OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox10NOTOK">Con el fin de facilitar la legibilidad de los símbolos se recomienda el uso de teclados con caracteres oscuros sobre fondo claro. Asimismo, las superficies visibles del teclado no deberían ser reflectantes.</string>
+
+    <string name="checkbox11OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox11NOTOK">Se recomienda que las principales secciones del teclado (bloque alfanumérico, bloque numérico, teclas de cursor y teclas de función) estén claramente delimitadas y separadas entre sí por una distancia de, al menos, la mitad de la anchura de una tecla. Asimismo, la forma, el tamaño y la fuerza de accionamiento de las teclas deben ser adecuados para permitir un uso cómodo y preciso.</string>
+
+    <string name="checkbox12OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox12NOTOK">Los teclados deberán incluir la letra ”ñ”, así como los signos de apertura de interrogación y de exclamación, de acuerdo con lo establecido en el Real Decreto 564/1993, de 16 de abril, sobre presencia de la letra ”Ñ” y demás caracteres específicos del idioma castellano en los teclados de determinados aparatos de funcionamiento mecánico, eléctrico o electrónico que se utilicen para la escritura.</string>
+
+    <string name="checkbox13OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox13NOTOK">Las superficies de trabajo deberán tener un acabado mate para minimizar los reflejos y, además, su color no debería ser excesivamente claro ni oscuro.</string>
+
+    <string name="checkbox14OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox14NOTOK">Las dimensiones de la mesa deben ser suficientes para que el usuario pueda colocar con holgura los elementos de trabajo: pantalla, documentos, dispositivos de entrada de datos, así como disponer del espacio necesario para su correcto uso siguiendo las recomendaciones dadas en apartados anteriores.</string>
+
+    <string name="checkbox15OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox15NOTOK">El portadocumentos debería ser ajustable en altura, inclinación y distancia, ser opaco y tener una superficie de baja reflectancia y tener resistencia estructural suficiente para soportar el peso de los documentos sin que se produzcan movimientos que dificulten la lectura de los mismos.</string>
+
+    <string name="checkbox16OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox16NOTOK">Cuando sea necesario trabajar de manera habitual con documentos impresos, se recomienda la utilización de un atril. Este dispositivo permite reducir los esfuerzos de acomodación visual y los movimientos de cabeza, cuello y ojos requeridos para pasar del plano de trabajo del documento al de la pantalla y viceversa.</string>
+
+    <string name="checkbox17OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox17NOTOK">Las dimensiones de la mesa deben ser suficientes para que el usuario pueda colocar con holgura los elementos de trabajo: pantalla, documentos, dispositivos de entrada de datos, así como disponer del espacio necesario para su correcto uso siguiendo las recomendaciones dadas en apartados anteriores.</string>
+
+    <string name="checkbox18OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox18NOTOK">La profundidad del asiento debe ser regulable, de tal forma que el usuario pueda utilizar el respaldo sin que el borde del asiento le presione las piernas. Además, se recomiendan mecanismos de ajuste fácilmente accesibles y accionables en posición sentado y construidos a prueba de cambios no intencionados, así como la utilización de sillas dotadas de cinco apoyos para el suelo.</string>
+
+    <string name="checkbox19OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox19NOTOK">La altura del asiento deberá ser ajustable en el rango necesario para la población de usuarios.</string>
+
+    <string name="checkbox20OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox20NOTOK">Se recomienda la utilización de un respaldo con una suave prominencia para dar apoyo a la zona lumbar y con dispositivos para poder ajustar su altura e inclinación.</string>
+
+    <string name="checkbox21OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox21NOTOK">En aquellas situaciones en las que después de haber procedido a la regulación, modificación o adaptación de los elementos del puesto de trabajo, el trabajador no llegue a apoyar los pies en el suelo, se recomienda el uso de un reposapiés de superficies antideslizantes, tanto en la zona superior para los pies como en sus apoyos para el suelo, con una inclinación mínima de 5° regulable hasta, al menos, 15° y cuyas dimensiones mínimas sean de 45 cm de ancho por 35 cm de profundidad.</string>
+
+    <string name="checkbox22OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox22NOTOK">Las zonas de paso, salidas y vías de circulación de los lugares de trabajo y, en especial, las salidas y vías de circulación previstas para la evacuación en casos de emergencia, deberán permanecer libres de obstáculos de forma que sea posible utilizarlas sin dificultades en todo momento. \n\nLos lugares de trabajo, incluidos los locales de servicio, y sus respectivos equipos e instalaciones, se limpiarán periódicamente y siempre que sea necesario para mantenerlos en todo momento en condiciones higiénicas adecuadas. A tal fin, las características de los suelos, techos y paredes serán tales que permitan dicha limpieza y mantenimiento. \nSe eliminarán con rapidez los desperdicios, las manchas de grasa, los residuos de sustancias peligrosas y demás productos residuales que puedan originar accidentes o contaminar el ambiente de trabajo. \n\nLas operaciones de limpieza no deberán constituir por si mismas una fuente de riesgo para los trabajadores que las efectúen o para terceros, realizándose a tal fin en los momentos, de la forma y con los medios más adecuados. \n\nLos lugares de trabajo y, en particular, sus instalaciones, deberán ser objeto de un mantenimiento periódico, de forma que sus condiciones de funcionamiento satisfagan siempre las especificaciones del proyecto, subsanándose con rapidez las deficiencias que puedan afectar a la seguridad y salud de los trabajadores.</string>
+
+    <string name="checkbox23OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox23NOTOK">Teniendo en cuenta que, en los puestos típicos de trabajo que hacen uso de equipos con pantallas de visualización, es habitual que se simultaneen tareas de lectura y de escritura, tanto en el papel como en la pantalla, el nivel de iluminación promedio deberá estar comprendido en el rango de 300 lux a 500 lux.\n\nPara más información visite: https://www.boe.es/buscar/act.php?id=BOE-A-1997-8669 (ANEXO IV, Iluminación de los lugares de trabajo --> Tabla de niveles de iluminación).</string>
+
+    <string name="checkbox24OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox24NOTOK">Los puestos de trabajo deberán diseñarse y ubicarse de forma que se eviten los reflejos producidos tanto por la luz natural procedente de las ventanas, claraboyas u otras aberturas, como por la luz artificial generada por el sistema de iluminación del local.</string>
+
+    <string name="checkbox25OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox25NOTOK">Es importante orientar y situar los puestos de trabajo de forma que se evite que la luz (bien sea natural o artificial) incida directamente sobre la pantalla, el teclado, la superficie y los documentos de trabajo.</string>
+
+    <string name="checkbox26OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox26NOTOK">Puede resultar útil disponer de cortinas, persianas o mamparas para amortiguar y controlar el nivel de iluminación, así como apantallar o utilizar difusores en aquellas luminarias susceptibles de causar deslumbramientos, y utilizar superficies con un acabado mate para reducir posibles reflexiones molestas.</string>
+
+    <string name="checkbox27OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox27NOTOK">El nivel de ruido debe ser lo suficientemente bajo para permitir la realización de las tareas sin producir efectos indeseados para el trabajador, siendo de 45 dB a 55 dB para trabajos de rutina de oficinas y de 35 dB a 45 dB para salas de reuniones o tareas que implican concentración. \nNo obstante, no sólo se debe considerar el nivel de exposición sino que la calidad acústica de un puesto, el tiempo de reverberación y otros parámetros, como la propagación del sonido, también deben tenerse en cuenta.</string>
+
+    <string name="checkbox28OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox28NOTOK">Los trabajadores no deberían estar expuestos ni a radiación térmica, ni a corrientes de aire, y la temperatura debería ser homogénea y sin variaciones significativas en el puesto de trabajo (por ejemplo, entre los pies y la cabeza). Para trabajos en locales cerrados donde se realicen tareas de oficinas y similares, que la temperatura del aire se mantenga en el rango de 23 °C a 26 °C en época de verano y de 20 °C a 24 °C en época de invierno. \n\nLos trabajadores no deberán estar expuestos de forma frecuente o continuada a corrientes de aire cuya velocidad exceda los 0.25 m/s para los trabajos en ambientes no calurosos, los 0.5m/s para trabajos sedentarios en ambientes calurosos y los 0.75m/s para trabajos no sedentarios en ambientes calurosos. \n\nEstos límites no se aplicarán a las corrientes de aire expresamente utilizadas para evitar el estrés en exposiciones intensas al calor, ni a las corrientes de aire acondicionado, para las que el límite será de 0.25 m/s en el caso de trabajos sedentarios y 0.35 m/s en los demás casos. \n\nSin perjuicio de lo dispuesto en relación a la ventilación de determinados locales en el Real Decreto 1618/1980, de 4 de julio, por el que se aprueba el Reglamento de calefacción, climatización y agua caliente sanitaria, la renovación mínima del aire de los locales de trabajo, será de 30 metros cúbicos de aire limpio por hora y trabajador, en el caso de trabajos sedentarios en ambientes no calurosos ni contaminados por humo de tabaco y de 50 metros cúbicos, en los casos restantes, a fin de evitar el ambiente viciado y los olores desagradables. \n\nEl sistema de ventilación empleado y, en particular, la distribución de las entradas de aire limpio y salidas de aire viciado, deberán asegurar una efectiva renovación del aire del local de trabajo.</string>
+
+    <string name="checkbox29OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox29NOTOK">Los niveles de radiación óptica y electromagnética que emiten las pantallas de visualización están por debajo de los niveles límite establecidos tanto en el Real Decreto 486/2010, de 23 de abril, sobre la protección de la salud y la seguridad de los trabajadores contra los riesgos relacionados con la exposición a radiaciones ópticas artificiales. \nPor tanto, conforme a los conocimientos científicos actuales y a la normativa indicada en el párrafo anterior, no sería necesario realizar una evaluación específica frente a estos riesgos por el uso habitual de pantallas de visualización.</string>
+
+    <string name="checkbox30OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox30NOTOK">La humedad relativa estará comprendida entre el 30 y el 70 por 100, excepto en los locales donde existan riesgos por electricidad estática en los que el límite inferior será el 50 por 100. La humedad ambiental afecta a la sensación térmica, pero también puede influir en otros aspectos. Por ejemplo: una humedad relativa baja favorece la sequedad de los ojos y de las mucosas.</string>
+
+    <string name="checkbox31OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox31NOTOK">Un diálogo se adapta a la tarea en la medida en que asiste al usuario para que pueda llevarla a término con eficacia y eficiencia. En este sentido, el programa informático debería presentar la información necesaria en un formato adecuado, evitando etapas inútiles.</string>
+
+    <string name="checkbox32OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox32NOTOK">Un diálogo es autodescriptivo cuando el usuario sabe en cada momento en qué diálogo se encuentra y qué acciones puede realizar y cómo puede llevarlas a cabo. Para ello, cada uno de los pasos debe ser directamente comprensible a través de la retroalimentación o de las explicaciones proporcionadas al usuario por el sistema en base a sus necesidades, evitando en lo posible la necesidad de consulta de material externo. Por ejemplo: el usuario debería ser asistido mediante una información que le ayude a adquirir una comprensión general del sistema y le oriente de manera que la interacción requerida con el sistema sea evidente. Esta información debería darse empleando una terminología coherente con la utilizada en el contexto de la tarea.</string>
+
+    <string name="checkbox33OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox33NOTOK">Un diálogo es controlable cuando el usuario puede iniciar y controlar la dirección y el ritmo de la interacción hasta lograr el objetivo. Si la tarea lo permite, es conveniente dar al usuario la posibilidad de anular, al menos, la última acción realizada en el transcurso del diálogo.La velocidad de la interacción debería estar bajo el control del usuario, no ser impuesta por el sistema. El sistema debe permitir utilizar diferentes dispositivos de entrada y salida.</string>
+
+    <string name="checkbox34OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox34NOTOK">Un diálogo es conforme con las expectativas del usuario cuando se corresponde con el conocimiento que este tiene de la tarea, así como con su formación, experiencia y las convenciones comúnmente aceptadas. Es conveniente que los diálogos empleados para realizar tareas parecidas sean similares, de manera que el usuario pueda desarrollar procedimientos comunes en la ejecución de dichas tareas. Debe emplearse un vocabulario que resulte familiar al usuario y respetar las convenciones culturales del mismo. El sistema también debería satisfacer las expectativas del usuario en relación con los tiempos de espera. Si ello no fuera posible, el sistema debería informar de la existencia de una incidencia.</string>
+
+    <string name="checkbox35OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox35NOTOK">Un sistema de diálogo facilita su aprendizaje en la medida en que proporciona medios, guías y ayuda al usuario durante su utilización. Por ejemplo: las reglas y los conceptos fundamentales del diálogo deberían ser transparentes para el usuario, de manera que este pueda adquirir fácilmente una visión de conjunto de la estructura del sistema o aplicación y establecer sus propias estrategias de trabajo. El sistema puede facilitar el aprendizaje permitiendo al usuario experimentar con diferentes supuestos y ejemplos e incluso cometer errores sin que ello tenga consecuencias negativas para el objetivo final. Del mismo modo, el sistema puede aportar información adicional, permitiendo realizar tareas a pesar de disponer de una cantidad mínima de información.</string>
+
+    <string name="checkbox36OK">No es necesario aplicar medidas preventivas.</string>
+    <string name="checkbox36NOTOK">Un diálogo tiene capacidad de adaptarse a la persona cuando el sistema de diálogo puede modificarse de acuerdo con las capacidades de cada usuario en relación con las necesidades de la tarea que realiza. El sistema de diálogo se debería poder adaptar a la lengua y a la cultura del usuario, al sistema de unidades que utilice, a sus capacidades perceptivas y cognitivas, etc. Son muchas las características que pueden emplearse para personalizar un diálogo: la cantidad de información de ayuda, agregar palabras al diccionario, poder elegir entre distintas técnicas de diálogo, configurar la velocidad de las entradas y de las salidas, etc. En cualquier caso, el sistema debe permitir volver a la configuración original.</string>
+
+    <string name="faqP1yR1"><b>¿Cuál es el tiempo máximo de permanencia que no se debería sobrepasar ante una pantalla de visualización?</b> \n\nEl tiempo máximo de permanencia ante una pantalla de visualización no está determinado en la legislación española sobre seguridad y salud en el trabajo.
+    \n\nDado que las tareas pueden ser de diferente naturaleza y características, dependerá del tipo de trabajo que se realice, de las características del puesto en general y de las características individuales. Todo ello debe ser valorado a través de la correspondiente evaluación de riesgos, que debe indicar el tiempo promedio de utilización diaria y el tiempo máximo de atención continuada que permiten dichas tareas. Es muy importante adecuar correctamente las pausas, la alternancia con otras tareas que no impliquen uso de pantalla de visualización y descansos adecuados a las características del puesto.</string>
+
+    <string name="faqP2yR2"><b>¿Cómo deben ser las pausas y descansos para el personal que trabaja con equipos con pantalla de visualización?</b>\n\nLa naturaleza de las pausas y descansos dependerán de las características de las tareas concretas que se realicen. Algunos aspectos a considerar respecto a las pausas son los siguientes:
+    \n\n- Las pausas deberían ser introducidas antes de que sobrevenga la fatiga.
+    \n\n- El tiempo de las pausas no debe ser recuperado aumentando, por ejemplo, el ritmo de trabajo durante los períodos de actividad.
+    \n\n- Resultan más eficaces las pausas cortas y frecuentes que las pausas largas y escasas. Por ejemplo,
+    \n\n- Las pausas deben permitir al trabajador o trabajadora relajar la vista (por ejemplo, mirando algunas escenas lejanas) así como permitir la movilidad (cambiar de postura, dar algunos pasos, etc.).
+    \n\n- En la formación e información del personal trabajador se puede incluir alguna tabla sencilla de ejercicios visuales y musculares que ayuden a relajar la vista y el sistema musculoesquelético durante las pausas.
+    \n\nA título orientativo, se pueden establecer pausas de unos 10 o 15 minutos por cada 90 minutos de trabajo con la pantalla. En tareas que requieran el mantenimiento de una gran atención o precisión conviene realizar al menos una pausa de 10 minutos cada 60 minutos, mientras que en tareas con menos demandas se podría reducir la frecuencia de las pausas, pero sin hacer menos de una cada dos horas de trabajo con la pantalla.</string>
+
+    <string name="faqP3yR3"><b>¿Cómo se debe ubicar la pantalla en un puesto que utiliza un equipo con PVDs?</b>\n\nPara facilitar la correcta visualización de la información es fundamental la distancia de visualización y el ángulo de la línea de visión. En lo que concierne a la colocación de la pantalla, aunque la distancia de visualización depende de la tarea y del monitor, en ningún caso debe estar situada a menos de 300 mm. Los tamaños de las pantallas que se emplean habitualmente en tareas de oficina requieren habitualmente una distancia comprendida entre 400 mm y 750 mm. La pantalla se situará a una altura tal que pueda ser visualizada dentro del espacio situado entre la línea de visión horizontal y la trazada a 40° bajo la horizontal de forma que el ángulo de inclinación del cuello esté entre 0° y 25°.</string>
+
+    <string name="faqP4yR4"><b>¿Quién se considera que es trabajador con equipos con pantallas de visualización?</b>\n\nEn primer lugar para definir si el Real Decreto 488/1997, de 14 de abril, sobre disposiciones mínimas de seguridad y salud relativas al trabajo con equipos que incluyen pantallas de visualización es de aplicación, hay que asegurarse previamente de que el puesto de trabajo no forma parte de las exclusiones de esta normativa.
+    \n\nEn el artículo 2.c) del citado real decreto se define “trabajador” como “aquel que habitualmente y durante una parte relevante de su trabajo normal utilice un equipo con pantalla de visualización”.
+    \n\nEs muy difícil establecer qué es una parte relevante de su trabajo basándolo exclusivamente en el número de horas diarias o semanales que se realicen. Además de la frecuencia de uso y duración, se deben valorar la intensidad y ritmo de trabajo. Es decir que para determinarlo se han de considerar el conjunto de factores asociados a las condiciones de trabajo y de la persona que ocupe el puesto y esto solo puede llevarse a cabo mediante una evaluación de los riesgos del puesto de trabajo concreto.</string>
+
+    <string name="faqP5yR5"><b>¿Qué medidas preventivas se pueden adoptar en los puestos con ordenador?</b>\n\nPara minimizar los riesgos, lo primero sería cumplir con los requisitos legales del Real Decreto 488/1997, de 14 de abril, sobre disposiciones mínimas de seguridad y salud relativas al trabajo con equipos que incluyen pantallas de visualización, en líneas generales las medidas a adoptar se agrupan en los siguientes ámbitos:
+    \n\n- Correcto diseño del puesto de trabajo: monitores de buena calidad, iluminación adecuada y sin reflejos, etc.
+    \n\n- Correcta organización del puesto de trabajo, con objetivo de minimizar el estatismo postural, la fatiga visual y la carga mental: introducir pausas, cambios de actividad, etc..
+    \n\n- Garantía de la formación e información de las personas trabajadoras.</string>
+    <string name="faqP6yR6"><b>¿Qué riesgos generan los ordenadores?</b>\n\nLos riesgos fundamentales a los que está expuesto el personal que trabaja con equipos con pantallas de visualización son:
+    \n\n- Riesgos para la vista: fundamentalmente fatiga visual por permanecer largos periodos de tiempo fijando la vista en la pantalla. Puede verse aumentado por condiciones ambientales inadecuadas o pausas inapropiadas, así como por defectos de refracción existentes entre otros factores.
+    \n\n- Problemas físicos: relacionados con posturas inadecuadas y estatismo postural.
+    \n\n- Los derivados de la carga mental: sobre todo por una excesiva presión mental debida a la intensidad de las demandas que pueden llevar a fatiga crónica, aumento de los errores, etc. en ocasiones puede deberse a una presión mental escasa en trabajos monótonos.
+    \n\nEstos riesgos fundamentales pueden verse agravados por el diseño incorrecto del puesto, la organización del trabajo, las condiciones del lugar de trabajo, etc.
+    \n\nNo obstante, dependiendo de las características de los puestos pueden existir otro tipo de riesgos no asociados directamente con el uso de equipos con pantallas que se deben tener en cuenta en la evaluación riesgos del puesto.</string>
+
+
+    <string name="faqP1">¿Cuál es el tiempo máximo de permanencia que no se debería sobrepasar ante una pantalla de visualización?</string>
+    <string name="faqP2">¿Cómo deben ser las pausas y descansos para el personal que trabaja con equipos con pantalla de visualización?</string>
+    <string name="faqP3">¿Cómo se debe ubicar la pantalla en un puesto que utiliza un equipo con PVDs?</string>
+    <string name="faqP4">¿Quién se considera que es trabajador con equipos con pantallas de visualización?</string>
+    <string name="faqP5">¿Qué medidas preventivas se pueden adoptar en los puestos con ordenador?</string>
+    <string name="faqP6">¿Qué riesgos generan los ordenadores?</string>
+
+    <string name="faqR1">\n\nEl tiempo máximo de permanencia ante una pantalla de visualización no está determinado en la legislación española sobre seguridad y salud en el trabajo.
+    \n\nDado que las tareas pueden ser de diferente naturaleza y características, dependerá del tipo de trabajo que se realice, de las características del puesto en general y de las características individuales. Todo ello debe ser valorado a través de la correspondiente evaluación de riesgos, que debe indicar el tiempo promedio de utilización diaria y el tiempo máximo de atención continuada que permiten dichas tareas. Es muy importante adecuar correctamente las pausas, la alternancia con otras tareas que no impliquen uso de pantalla de visualización y descansos adecuados a las características del puesto.</string>
+
+    <string name="faqR2">\n\nLa naturaleza de las pausas y descansos dependerán de las características de las tareas concretas que se realicen. Algunos aspectos a considerar respecto a las pausas son los siguientes:
+    \n\n- Las pausas deberían ser introducidas antes de que sobrevenga la fatiga.
+    \n\n- El tiempo de las pausas no debe ser recuperado aumentando, por ejemplo, el ritmo de trabajo durante los períodos de actividad.
+    \n\n- Resultan más eficaces las pausas cortas y frecuentes que las pausas largas y escasas. Por ejemplo,
+    \n\n- Las pausas deben permitir al trabajador o trabajadora relajar la vista (por ejemplo, mirando algunas escenas lejanas) así como permitir la movilidad (cambiar de postura, dar algunos pasos, etc.).
+    \n\n- En la formación e información del personal trabajador se puede incluir alguna tabla sencilla de ejercicios visuales y musculares que ayuden a relajar la vista y el sistema musculoesquelético durante las pausas.
+    \n\nA título orientativo, se pueden establecer pausas de unos 10 o 15 minutos por cada 90 minutos de trabajo con la pantalla. En tareas que requieran el mantenimiento de una gran atención o precisión conviene realizar al menos una pausa de 10 minutos cada 60 minutos, mientras que en tareas con menos demandas se podría reducir la frecuencia de las pausas, pero sin hacer menos de una cada dos horas de trabajo con la pantalla.</string>
+
+    <string name="faqR3">\n\nPara facilitar la correcta visualización de la información es fundamental la distancia de visualización y el ángulo de la línea de visión. En lo que concierne a la colocación de la pantalla, aunque la distancia de visualización depende de la tarea y del monitor, en ningún caso debe estar situada a menos de 300 mm. Los tamaños de las pantallas que se emplean habitualmente en tareas de oficina requieren habitualmente una distancia comprendida entre 400 mm y 750 mm. La pantalla se situará a una altura tal que pueda ser visualizada dentro del espacio situado entre la línea de visión horizontal y la trazada a 40° bajo la horizontal de forma que el ángulo de inclinación del cuello esté entre 0° y 25°.</string>
+
+    <string name="faqR4">\n\nEn primer lugar para definir si el Real Decreto 488/1997, de 14 de abril, sobre disposiciones mínimas de seguridad y salud relativas al trabajo con equipos que incluyen pantallas de visualización es de aplicación, hay que asegurarse previamente de que el puesto de trabajo no forma parte de las exclusiones de esta normativa.
+    \n\nEn el artículo 2.c) del citado real decreto se define “trabajador” como “aquel que habitualmente y durante una parte relevante de su trabajo normal utilice un equipo con pantalla de visualización”.
+    \n\nEs muy difícil establecer qué es una parte relevante de su trabajo basándolo exclusivamente en el número de horas diarias o semanales que se realicen. Además de la frecuencia de uso y duración, se deben valorar la intensidad y ritmo de trabajo. Es decir que para determinarlo se han de considerar el conjunto de factores asociados a las condiciones de trabajo y de la persona que ocupe el puesto y esto solo puede llevarse a cabo mediante una evaluación de los riesgos del puesto de trabajo concreto.</string>
+
+    <string name="faqR5">\n\nPara minimizar los riesgos, lo primero sería cumplir con los requisitos legales del Real Decreto 488/1997, de 14 de abril, sobre disposiciones mínimas de seguridad y salud relativas al trabajo con equipos que incluyen pantallas de visualización, en líneas generales las medidas a adoptar se agrupan en los siguientes ámbitos:
+    \n\n- Correcto diseño del puesto de trabajo: monitores de buena calidad, iluminación adecuada y sin reflejos, etc.
+    \n\n- Correcta organización del puesto de trabajo, con objetivo de minimizar el estatismo postural, la fatiga visual y la carga mental: introducir pausas, cambios de actividad, etc..
+    \n\n- Garantía de la formación e información de las personas trabajadoras.</string>
+
+    <string name="faqR6">\n\nLos riesgos fundamentales a los que está expuesto el personal que trabaja con equipos con pantallas de visualización son:
+    \n\n- Riesgos para la vista: fundamentalmente fatiga visual por permanecer largos periodos de tiempo fijando la vista en la pantalla. Puede verse aumentado por condiciones ambientales inadecuadas o pausas inapropiadas, así como por defectos de refracción existentes entre otros factores.
+    \n\n- Problemas físicos: relacionados con posturas inadecuadas y estatismo postural.
+    \n\n- Los derivados de la carga mental: sobre todo por una excesiva presión mental debida a la intensidad de las demandas que pueden llevar a fatiga crónica, aumento de los errores, etc. en ocasiones puede deberse a una presión mental escasa en trabajos monótonos.
+    \n\nEstos riesgos fundamentales pueden verse agravados por el diseño incorrecto del puesto, la organización del trabajo, las condiciones del lugar de trabajo, etc.
+    \n\nNo obstante, dependiendo de las características de los puestos pueden existir otro tipo de riesgos no asociados directamente con el uso de equipos con pantallas que se deben tener en cuenta en la evaluación riesgos del puesto.</string>
+
+    <string name="ayuda1">Esta es la pantalla de ayuda, dónde puede encontrar información acerca de cómo navegar por las diferentes pantallas de PVD Prevención, así como aprender a desenvolverse mejor en cada una de ellas.</string>
+    <string name="ayuda2">REALIZAR EVALUACIÓN</string>
+    <string name="ayuda3">Una vez pulse en el botón de Realizar Evaluación, se le presenta una lista compuesta por los diferentes aspectos que se van a analizar de su puesto de trabajo con pantallas de visualización. Debe marcar con un tick, pulsando una vez en el cuadrado asociado a cada aspecto analizado (pulsar un cuadrado vacío lo marca con un tick, pulsarlo cuando tiene un tick, lo desmarca) cuando su puesto de trabajo cumpla el aspecto que se está analizando.\n\nEl objetivo de PVD Prevención es proporcionarle una serie de medidas preventivas a su puesto de trabajo, por lo que si marca un aspecto con un tick, la aplicación asumirá que la cumple y no le recomendará aplicar ninguna medida. Dicho esto, si encuentra un aspecto que no aplique a su puesto de trabajo, márquelo con un tick para obviarlo o déjelo sin marcar en caso de que desee conocer una posible medida de prevención por si en algún momento llegase a aplicarse dicho aspecto en su puesto de trabajo. Una vez haya terminado de completar la lista, pulse en el botón de Resultados.</string>
+    <string name="ayuda4">En la pantalla Resultados se le presentan los resultados obtenidos de la lista que acaba de completar, en la que para cada aspecto analizado que no ha marcado con un tick (es decir, que no cumple su puesto de trabajo) se le ofrece una medida preventiva que puede aplicar a su puesto de trabajo para corregirlo. Aquellos aspectos marcados con un tick (los que cumple su puesto de trabajo) le recuerdan que no es necesario aplicarles medidas preventivas.</string>
+    <string name="ayuda5">Es posible que realice una evaluación y simplemente quiera conocer las medidas preventivas que podría aplicar en su puesto de trabajo, pero PVD Prevención le ofrece la posibilidad de guardar la evaluación realizada. Para ello, simplemente introduzca un nombre para su evaluación (ejemplo: Evaluación de mi puesto de trabajo) y pulse en el botón Guardar evaluación. De esta forma, su evaluación queda guardada en PVD Prevención. Para visualizarla, acceda a Mis Evaluaciones.</string>
+    <string name="ayuda6">Resultados</string>
+    <string name="ayuda7">Guardar evaluación</string>
+    <string name="ayuda8">MIS EVALUACIONES</string>
+    <string name="ayuda9">Una vez pulse en el botón de Mis Evaluaciones, se le presenta una lista compuesta por toda las evaluaciones que ha guardado en PVD Prevención. Cada evaluación dispone de tres botones:\n\n- Pulse el botón con el nombre de la evaluación para acceder a los resultados de la misma.\n\n- Pulse el botón de la papelera para borrar dicha evaluación de PVD Prevención.\n\n- Pulse el botón de la flecha hacia abajo para descargar dicha evaluación en su dispositivo Android en formato PDF. Podrá encontrar el archivo en la carpeta Descargas de su dipositivo.</string>
+    <string name="ayuda10">PREGUNTAS FRECUENTES (FAQ)</string>
+    <string name="ayuda11">Una vez pulse en el botón de Preguntas Frecuentes (FAQ), se le presenta una serie de aspectos (compuestos por una pregunta y una respuesta) de interés relacionados con el ámbito de las pantallas de visualización y sus posibles medidas preventivas en los que no se incide en las evaluaciones de PVD Prevención. Es por eso que se les dedica un espacio en esta pantalla, para informar a aquellos usuarios que puedan estar interesados en la prevención. </string>
+    <string name="ayuda14"><b>IMPORTANTE:</b> La primera vez que acceda a Mis Evaluaciones, saldrá de PVD Prevención a una pantalla de Acceso a todos los archivos, en la que se le muestra una lista de aplicaciones de su dipositivo. En caso de que desee utilizar la opción de descargar las evaluaciones realizadas en formato PDF, busque PVD Prevención en la lista y púlsela. A continuación, active el botón de Acceso a todos los archivos y vuelva a la aplicación.</string>
+    <string name="ayuda15">PVD Prevención no accederá a los archivos de su dispositivo sin notificárselo, pero es necesario darle los permisos de almacenamiento para que pueda acceder a la carpeta Descargas, dónde depositará sus evaluaciones en formato PDF. Si no desea utilizar la opcion de descarga de PVD Prevención, no es necesario que le de permisos de ningún tipo, aunque la propia aplicación los solicitará cuando intente acceder a sus evaluaciones y lo llevará a la pantalla de Acceso a todos los archivos. Simplemente pulse el botón de su dispositivo para volver hacia atrás (de vuelta a la aplicación) y podrá seguir visualizando sus evaluaciones.</string>
+
+
+
+</resources>

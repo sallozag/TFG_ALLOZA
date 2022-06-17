@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegActivity">
+
+    <LinearLayout
+        android:id="@+id/regLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/registroTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Para llevar a cabo el registro en la aplicación, introduzca los campos de correo electrónico y contraseña y pulse el botón Registrar:"
+            android:layout_gravity="center_vertical|end"
+            android:gravity=""
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/negro"
+            android:color="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/email"
+            android:textColorHint="@color/negro"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:autofillHints="" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="5dp"/>
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="@color/negro"
+            android:hint="@string/contrasena"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:autofillHints="" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="20dp"/>
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/acento"
+            android:text="@string/registrar"
+            android:textColor="@color/white"
+            tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="35dp"/>
+
+            <Button
+                android:id="@+id/backAccButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/acento"
+                android:text="Volver al menú principal"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

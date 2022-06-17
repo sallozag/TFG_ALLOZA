@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthActivity">
+
+    <LinearLayout
+        android:id="@+id/authLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/authText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PVD Prevención es una aplicación que permite realizar evaluaciones de puestos de trabajo con pantallas de visualización."
+            android:gravity=""
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/negro"
+            android:color="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Para disfrutar de su contenido, introduzca su correo electrónico y contraseña y pulse el botón Acceder:"
+            android:layout_gravity="center_vertical|end"
+            android:gravity=""
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="17sp"
+            android:textColor="@color/negro"
+            android:color="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/email"
+            android:textColorHint="@color/negro"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:autofillHints="" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="5dp"/>
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/contrasena"
+            android:textColorHint="@color/negro"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:autofillHints="" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/acento"
+                android:text="@string/acceder"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="15dp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O bien mediante su cuenta de Google:"
+            android:gravity=""
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="17sp"
+            android:color="@color/black"
+            android:textColor="@color/negro"
+            tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/googleButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="  Google"
+                android:drawableStart="@drawable/google35"
+                android:textAlignment="textStart"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="15dp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Todavía no dispone de una cuenta en PVD Prevención?"
+            android:gravity=""
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/negro"
+            android:color="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/signUpButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/acento"
+                android:text="@string/registrar"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
