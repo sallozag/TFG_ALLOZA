@@ -1,0 +1,13 @@
+RESUMEN
+
+El proyecto consiste en la realización de una aplicación móvil para identificar, evaluar y proponer medidas preventivas a los riesgos laborales de un puesto de trabajo con Pantalla de Visualización de Datos (PVD).
+
+El usuario final, ya sea técnico u operario de Prevención de Riesgos Laborales (PRL), así como cualquier persona interesada en evaluar y asegurar su puesto de trabajo con PVD, dispondrá de una aplicación con la que poder identificar los factores de riesgo de un puesto con PVD incluido el teletrabajo, evaluarlos y proponer una serie de medidas preventivas acordes a la valoración realizada. Esta información (evaluación de riesgos) se almacenará en una base de datos para su posterior consulta.
+
+Para ello, se ha desarrollado una aplicación desarrollada mediante Android Studio, utilizando lenguaje Kotlin y un completo repositorio de información en Firebase, sin dejar de lado el seguimiento e incorporación de las normas y legislación vigente al respecto.
+
+Palabras clave
+
+A continuación, se muestra una serie de palabras o siglas de importancia que aparece a lo largo del presente documento, junto a su significado:
+
+• Evaluación de riesgos • Trabajador usuario de PVD • Teletrabajo • App • Firebase
